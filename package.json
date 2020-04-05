@@ -1,0 +1,32 @@
+{
+  "name": "wykdvue2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "buildDiy": "vue-cli-service build",
+    "build": "node build/build.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.4.5",
+    "axios": "^0.19.0",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.13.0",
+    "postcss-px2rem": "^0.3.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "lib-flexible": "^0.3.2",
+    "px2rem-loader": "^0.1.9",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
