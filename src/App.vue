@@ -6,11 +6,7 @@
 
 <script>
 export default {
-  created () {
-    document
-      .querySelector('meta[name="viewport"]')
-      .setAttribute('charset', 'utf-8')
-  }
+
 }
 </script>
 
